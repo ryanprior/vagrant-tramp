@@ -26,12 +26,7 @@ of running Vagrant boxes for completion:
 
 <kbd>C-x C-f /vagrant:</kbd>
 
-    Find file: /vagrant:
-    -> devbox:
-       esxbox:
-       kafka-broker1:
-       kafka-broker2:
-       kafka-zookeeper:
+![ido completing vagrant method](img/ido-screenshot.png)
 
 Boxes are named using the `Vagrantfile` directory basename and the VM
 name (excluding *default*) to support multi-VM environments. TRAMP
@@ -53,10 +48,7 @@ The `vagrant-tramp-term` function provides a convenient way to
 
 <kbd>M-x vagrant-tramp-term</kbd>
 
-    vagrant ssh to box:
-    -> devbox:
-       kafka-broker1:
-       kafka-broker2:
+![demonstration of vagrant terminal](img/term-screenshot.png)
 
 ## See also
 
