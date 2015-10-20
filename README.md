@@ -26,7 +26,7 @@ of running Vagrant boxes for completion:
 
 <kbd>C-x C-f /vagrant:</kbd>
 
-![ido completing vagrant method](img/ido-screenshot.png)
+![ido completing vagrant method](img/ido-screencast.gif)
 
 Boxes are named using the `Vagrantfile` directory basename and the VM
 name (excluding *default*) to support multi-VM environments. TRAMP
@@ -48,7 +48,7 @@ The `vagrant-tramp-term` function provides a convenient way to
 
 <kbd>M-x vagrant-tramp-term</kbd>
 
-![demonstration of vagrant terminal](img/term-screenshot.png)
+![demonstration of vagrant terminal](img/term-screencast.gif)
 
 ## See also
 
